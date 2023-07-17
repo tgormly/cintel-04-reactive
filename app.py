@@ -33,7 +33,7 @@ from util_logger import setup_logger
 logger, logname = setup_logger(__name__)
 
 app_ui = ui.page_navbar(
-    shinyswatch.theme.lumen(),
+    shinyswatch.theme.morph(),
     ui.nav(
         "Flights",
         ui.layout_sidebar(
@@ -67,7 +67,7 @@ app_ui = ui.page_navbar(
     ui.nav(ui.a("App", href="https://denisecase.shinyapps.io/cintel-04-reactive/")),
     ui.nav(ui.a("Examples", href="https://shinylive.io/py/examples/")),
     ui.nav(ui.a("Widgets", href="https://shiny.rstudio.com/py/docs/ipywidgets.html")),
-    title=ui.h1("Case Dashboard"),
+    title=ui.h1("Tim Gormly Dashboard"),
 )
 
 
