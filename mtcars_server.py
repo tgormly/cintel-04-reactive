@@ -41,7 +41,7 @@ def get_mtcars_server_functions(input, output, session):
         input_range = input.MTCARS_MPG_RANGE()
         input_min = input_range[0]
         input_max = input_range[1]
-        HP_max = input.MTCARS_HP_MAX
+        HP_max = input.MTCARS_HP_MAX()
 
         """
         Filter the dataframe to just those greater than or equal to the min
